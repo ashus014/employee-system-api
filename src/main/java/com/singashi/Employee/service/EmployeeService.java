@@ -8,5 +8,5 @@ import java.util.List;
 public interface EmployeeService {
     EmployeeEntity createEmployee(Employee employee);
 
-    List<EmployeeEntity> getAllEmployees();
+    List<Employee> getAllEmployees();
 }
