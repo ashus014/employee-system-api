@@ -20,5 +20,7 @@ public class EmployeeSystemApiApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		employeeRepository.save(new EmployeeEntity("Akash", "Singh", "akash@123.com"));
+		employeeRepository.save(new EmployeeEntity("Ashu", "Singh", "ash@123.com"));
+		employeeRepository.save(new EmployeeEntity("Anu", "Singh", "anu@123.com"));
 	}
 }
